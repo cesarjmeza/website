@@ -16,10 +16,11 @@
             </p>
             {{ with .button }}
               {{ if .enable }}
-                <a 
-                  target = "_blank"
+                <a
+                  target="_blank"
                   rel="nofollow noopener"
-                  class="btn btn-primary" href="{{ .link | absURL }}">
+                  class="btn btn-primary"
+                  href="{{ .link | absURL }}">
                   {{ .label }}
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>
