@@ -50,23 +50,13 @@ Strike through uses two tildes. ~~Scratch this.~~
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
 
 URLs and URLs in angle brackets will automatically get turned into links.
 <http://www.example.com> or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
 
 <hr>
 
@@ -102,6 +92,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 This is a simple note.
 {{< /notice >}}
 
+{{< notice "quote" >}}
+This is a simple quote.
+{{< /notice >}}
+
 {{< notice "tip" >}}
 This is a simple tip.
 {{< /notice >}}
@@ -121,9 +115,9 @@ This is a simple warning.
 {{< tabs >}}
 {{< tab "Tab 1" >}}
 
-#### Did you come here for something in particular?
+#### Hey There, I am a tab
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 {{< /tab >}}
 
@@ -190,6 +184,25 @@ alert(s);
 ```python
 s = "Python syntax highlighting"
 print s
+```
+
+```c  { linenos=true }
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+    return 0;
+}
+```
+
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
 ```
 
 <hr>
