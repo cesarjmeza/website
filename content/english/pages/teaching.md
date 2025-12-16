@@ -5,17 +5,51 @@ description: "this is meta description"
 draft: false
 ---
 
-## Fall 2023
+## Washington University in St. Louis
 
-- Calculus III, Assistant in Instruction
-- Introduction to Graph Theory, Directed Reading Group Instructor
-- Calculus I, Guest Lecture (Monday, December 4 and Wednesday, December 6)
+### Spring 2025
 
-## Spring 2023
+- Calculus II, _Assistant in Instruction_
 
-- Linear Algebra, Grader
-- Introduction to Differential Geometry, Grader
+### Fall 2024
 
-## Fall 2022
+### Spring 2024
 
-- Calculus I, Assistant in Instruction
+- Calculus II, Assistant in Instruction
+
+### Fall 2023
+
+- Calculus III, _Assistant in Instruction_
+- Introduction to Graph Theory, _Directed Reading Group Instructor_
+- Calculus I, _Guest Lecture_ (Monday, December 4 and Wednesday, December 6)
+
+### Spring 2023
+
+- Linear Algebra, _Grader_
+- Introduction to Differential Geometry, _Grader_
+
+### Fall 2022
+
+- Calculus I, _Assistant in Instruction_
+
+## San Francisco State University
+
+### Spring 2021
+
+- Precalculus, _Instructor of Record_
+- Mathematics for Statistical Quantitative Reasoning, _Instructor of Record_
+
+### Fall 2020
+
+- Precalculus, _Instructor of Record_
+- Calculus I, _Graduate Teaching Assistant_
+
+### Spring 2020
+
+- Business Calculus, _Instructor of Record_
+- Calculus I, _Graduate Teaching Assistant_
+
+### Fall 2019
+
+- Business Calculus, _Instructor of Record_
+- Calculus I, _Graduate Teaching Assistant_
