@@ -1,5 +1,13 @@
 <meta charset="utf-8" />
 
+{{ range resources.ByType "font" }}
+  <link
+    rel="preload"
+    href="{{ .RelPermalink }}"
+    as="font"
+    type="{{ .MediaType.Type }}"
+    crossorigin="anonymous" />
+{{ end }}
 <!-- responsive meta -->
 <meta
   name="viewport"

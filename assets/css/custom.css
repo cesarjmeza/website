@@ -1,1 +1,41 @@
 /* Add your own custom styles here */
+
+@font-face {
+  font-family: "Charter";
+  src:
+    url("../../static/fonts/CharterRegular.woff2") format("woff2"),
+    url("../../static/fonts/CharterRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src:
+    url("../../static/fonts/CharterItalic.woff2") format("woff2"),
+    url("../../static/fonts/CharterItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src:
+    url("../../static/fonts/CharterBoldItalic.woff2") format("woff2"),
+    url("../../static/fonts/CharterBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src:
+    url("../../static/fonts/CharterBold.woff2") format("woff2"),
+    url("../../static/fonts/CharterBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
