@@ -23,7 +23,7 @@ weight = 4
 
 [[main]]
 name = "CV"
-url = "/cv_meza-cesar.pdf"
+url = "/pdfs/cv_meza-cesar.pdf"
 weight = 5
 
 
