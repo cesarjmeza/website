@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Read my CV"
-    link: "/cv_meza-cesar.pdf"
+    link: "/pdfs/cv_meza-cesar.pdf"
 # Features
 # features:
 #  - title: "What's Included in Hugoplate"
