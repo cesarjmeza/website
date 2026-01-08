@@ -1,7 +1,7 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
+    <section class="section-sm pt-14 pb-0">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
@@ -9,7 +9,7 @@
               {{ .title | markdownify }}
             </h1>
             <div class="col-12">
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto mb-4 rounded lg:!max-w-[650px]" "DisplayXL" "650x" ) }}
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto mb-4 rounded-lg lg:!max-w-[650px]" "DisplayXL" "650x" ) }}
             </div>
             <p class="mb-8">
               {{ .content | markdownify }}
@@ -141,4 +141,42 @@
     {{ end }}
   {{ end }}
   <!-- /Testimonials -->
+
+  <div class="section-sm">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <h2 class="text-center">Education</h2>
+      <div
+        class="mx-auto mt-10 grid max-w-lg grid-cols-1 justify-around justify-items-center items-baseline gap-y-10 sm:grid-cols-3 sm:gap-x-10 sm:max-w-none lg:max-w-none">
+        <!-- class="mx-auto mt-10 grid max-w-lg grid-cols-3 justify-items-center items-baseline gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none"> -->
+        <div class="text-center">
+          {{ partial "image" (dict  "Src" "/images/pomona.webp" "Alt" "Pomona College" "Class" "img-light w-[150px]") }}
+          {{ partial "image" (dict  "Src" "/images/pomona-white-copy.webp" "Alt" "Pomona College" "Class" "img-dark w-[150px]") }}
+          <p class="text-center">
+            B.A. in Mathematics <br />
+            Minor in Chemistry <br />
+            2012&ndash;2016
+          </p>
+        </div>
+        <div class="text-center">
+          {{ partial "image" (dict "Src" "/images/sfsu-purple.webp" "Alt" "San Francisco State University" "Class" "img-light w-[100px]") }}
+          {{ partial "image" (dict "Src" "/images/sfsu-white.webp" "Alt" "San Francisco State University" "Class" "img-dark w-[100px]") }}
+          <p class="text-center">
+            M.A. in Mathematics <br />
+            2019&ndash;2021 <br />
+            <em>Transferred</em>
+          </p>
+        </div>
+        <div class="text-center">
+          {{ partial "image" (dict "Src" "/images/washu.webp" "Alt" "Washington University in St. Louis" "Class" "img-light w-[150px]") }}
+          {{ partial "image" (dict "Src" "/images/washu-reverse.webp" "Alt" "Washington University in St. Louis" "Class" "img-dark w-[150px]") }}
+          <p class="text-center">
+            A.M. in Mathematics <br />
+            2021&ndash;2023 <br />
+            Ph.D. in Mathematics <br />
+            2023&ndash;2026
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

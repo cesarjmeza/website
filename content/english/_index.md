@@ -2,12 +2,12 @@
 # Banner
 banner:
   title: "👋 Hi, I'm Cesar Meza"
-  content: "I'm a fifth year Ph.D. student in mathematics at [Washington University in St. Louis](https://math.wustl.edu) interested in algebraic and geometric combinatorics."
+  content: 'I''m a fifth year Ph.D. student in mathematics at <a href="https://math.wustl.edu" class="underline">Washington University in St. Louis</a> interested in algebraic and geometric combinatorics working with <a href="https://sites.google.com/ucsc.edu/escobar" class="underline">Laura Escobar</a> and <a href="https://www.math.wustl.edu/~shareshi/" class="underline">John Shareshian</a>. My research interests include algebraic and geoemtric combinatorics. I am currently on the academic job market, seeking a position beginning in Fall 2026.'
   image: "/images/Meza-Cesar.png"
   button:
     enable: true
     label: "Read my CV"
-    link: "/CV_Meza-Cesar.pdf"
+    link: "/cv_meza-cesar.pdf"
 # Features
 # features:
 #  - title: "What's Included in Hugoplate"
@@ -50,4 +50,3 @@ banner:
 #    label: ""
 #    link: ""
 ---
-

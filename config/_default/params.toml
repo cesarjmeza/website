@@ -46,7 +46,8 @@ link = "mailto:c.j.meza@wustl.edu"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+#include_sections = ["blog"]
+include_all_sections = true
 show_image = true
 show_description = true
 show_tags = true
@@ -57,15 +58,15 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 7
-content = "<span class='text-center block'> I am on the job market! </span>"
+content = "<span class='text-center block'> I am on the academic job market! </span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["Cesar", "Meza", "Math", "Mathematics", "Combinatorics"]
+description = "Cesar Meza's math webpage"
+author = "Cesar J. Meza"
+#twitter = "zeon_studio"
 image = "images/og-image.png"
 
 

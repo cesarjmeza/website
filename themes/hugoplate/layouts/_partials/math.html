@@ -1,0 +1,25 @@
+<script>
+  MathJax = {
+    tex: {
+      packages: { "[+]": ["unicode"] },
+      displayMath: [
+        ["\\[", "\\]"],
+        ["$$", "$$"],
+      ], // block
+      inlineMath: [
+        ["\\(", "\\)"],
+        ["$", "$"],
+      ], // inline
+    },
+    options: {
+      skipHtmlTags: { "[-]": ["code"] },
+    },
+    loader: {
+      load: ["ui/safe", "[tex]/unicode"],
+    },
+  };
+</script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
